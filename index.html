@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Game</title>
+
+    <link rel="stylesheet" type="text/css" href="assests/css/rps.css">
+    <script src="https://kit.fontawesome.com/fd17a1f88c.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+
+    
+    <h1>ROCK PAPER SCISSORS GAME</h1>
+    
+    <section class="midpart">
+        <div class="scorekeeper">
+            <span id="user" class="name">user</span>
+            <span class="score">
+                <span id="userscore">0</span>:<span id="compscore">0</span>
+            </span>
+            <span id="comp" class="name">comp</span>
+        </div>
+        <div class="selection">
+            <button id="rock"><i class="fas fa-hand-rock"></i></button>
+            <button id="paper"><i class="fas fa-hand-paper"></i></button>
+            <button id="scissor"><i class="fas fa-hand-scissors"></i></button>
+        </div>
+        <div class="result">
+            <p id="justtrying">Make your move</p>
+        </div>
+    </section>
+    <section class="lowmidpart">
+        <div class="somestuff">
+            <span id="comment"></span>
+            <button id="reset">RESET</button>
+        </div>
+    </section>
+    <section class="lowpart">
+        <div id="resultshow">
+            <div id="upp">
+                <span id="userside" class="side"><i class="fas fa-hand-rock"></i></span>
+                <span id="just">Just a game</span>
+                <span id="compside" class="side"><i class="fas fa-hand-rock"></i></span>
+            </div>
+            <!--<div id="down">
+                <span id="ussi">USER</span>
+                <span id="cosi">COMPUTER</span>
+            </div>-->
+
+        </div>
+    </section>
+    
+
+    <script type="text/javascript" src="assests/js/rps.js"></script>
+</body>
+</html>
