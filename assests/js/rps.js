@@ -164,6 +164,8 @@ function wonGame() {
     userScore.innerHTML = us;
     commentLine.innerHTML = "Nice work!! Correct move";
     commentLine.style.opacity = "1";
+    userSide.style.opacity = "0.6";
+    compSide.style.opacity = "0.6";
 }
 
 function loseGame() {
@@ -182,6 +184,8 @@ function loseGame() {
     compScore.innerHTML = cs;
     commentLine.innerHTML = "Bad luck!! Better luck next time";
     commentLine.style.opacity = "1";
+    userSide.style.opacity = "0.6";
+    compSide.style.opacity = "0.6";
 }
 
 function tiedGame() {
@@ -198,6 +202,8 @@ function tiedGame() {
     scissor.style.border = "2px solid white";
     commentLine.innerHTML = "Its a draw";
     commentLine.style.opacity = "1";
+    userSide.style.opacity = "0.6";
+    compSide.style.opacity = "0.6";
 }
 
 function userWins() {
