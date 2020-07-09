@@ -41,6 +41,8 @@ rock.addEventListener("click", function() {
                 compSide.innerHTML = scissor.innerHTML;
             }
             resultShow.style.opacity = "0.6";
+            userSide.style.opacity = "0.6";
+            compSide.style.opacity = "0.6";
         }, 2000);
     }
     else if (us === 5) {
